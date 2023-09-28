@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Contact - Alexandre Levesque</title>
   <style>
-    /contact page/
+    /* Add your contact page styling here */
   </style>
 </head>
 <body>
@@ -16,11 +16,13 @@
     <section>
       <h2>Contact Information</h2>
       <p>Name: Alexandre Levesque</p>
-      <p>Email: <a href="mailto:alexandrelevesque100@hotmail.com">alexandrelevesque100@hotmail.com</a></p>
-      <p>Phone: <a href="tel:14189331446">1 (418) 933-1446</a></p>
+      <p>Email: alexandrelevesque100@hotmail.com</p>
+      <p>Phone: 1 (418) 933-1446</p>
     </section>
   </main>
 
   <footer>
     &copy; 2023 Alexandre Levesque
   </footer>
+</body>
+</html>
