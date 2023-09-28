@@ -8,13 +8,14 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: #f0f0f0; /* Updated background color */
     }
     
     header {
-      background-color: #333;
+      background-color: #007bff; /* Blue header background */
       color: #fff;
       padding: 20px;
+      text-align: center; /* Centered header text */
     }
     
     h1 {
@@ -29,7 +30,8 @@
     }
     
     nav {
-      background-color: #ddd;
+      background-color: #333;
+      color: #fff;
       padding: 10px;
     }
     
@@ -47,7 +49,13 @@
     
     nav a {
       text-decoration: none;
-      color: #333;
+      color: #fff;
+      font-weight: bold; /* Bold navigation links */
+      font-size: 18px;
+    }
+    
+    nav a:hover {
+      text-decoration: underline; /* Underline on hover */
     }
     
     main {
@@ -63,6 +71,13 @@
     h3 {
       margin-top: 0;
       font-size: 24px;
+      color: #007bff; /* Blue section headings */
+    }
+    
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333; /* Darker text color */
     }
     
     ul {
@@ -77,17 +92,19 @@
       font-weight: bold;
     }
     
-    input[type="text"], input[type="email"], textarea {
+    input[type="text"],
+    input[type="email"],
+    textarea {
       width: 100%;
       padding: 10px;
       margin-bottom: 20px;
       font-size: 16px;
-      border: none;
+      border: 1px solid #ccc; /* Add a border */
       border-radius: 5px;
     }
     
     input[type="submit"] {
-      background-color: #333;
+      background-color: #007bff; /* Blue submit button */
       color: #fff;
       border: none;
       padding: 10px 20px;
@@ -97,7 +114,7 @@
     }
     
     input[type="submit"]:hover {
-      background-color: #555;
+      background-color: #0056b3; /* Darker blue on hover */
     }
     
     footer {
@@ -127,6 +144,14 @@
     <section id="about">
       <h3>About Me</h3>
       <p>Hi, I'm Alexandre Levesque, a project manager and lighting consultant with over 15 years of experience in the industry. My passion for lighting design started early in my career, and I've been lucky enough to work on some incredible projects over the years.</p>
-      <p>My expertise includes everything from initial project planning and design, to installation and maintenance. 
-                         You can reach me at 
-                            1(418)933-1446
+      <p>My expertise includes everything from initial project planning and design to installation and maintenance.</p>
+      <p>You can reach me at <a href="tel:14189331446">1(418)933-1446</a></p>
+    </section>
+    <!-- Add more sections for services, portfolio, and contact information -->
+  </main>
+  
+  <footer>
+    &copy; 2023 Alexandre Levesque
+  </footer>
+</body>
+</html>
